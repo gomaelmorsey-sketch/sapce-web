@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space web</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+     <style>
+       .carousel-item img{
+        height: 105vh;
+       }
+
+        @media(max-width : 768px){
+
+.carousel-item img{
+    height: 55vh;
+}
+}
+     </style>
+
+</head>
+<body>
+
+
+<!-- navbar section -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+<div class="container-fluid">
+
+<a href="#" class="navbar-brand">Abdelrahman Mostafa</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> <!--متنساش ال# يا بني -->
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+
+<ul class="navbar-nav ms-auto">
+    <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+</ul>
+
+</div>
+
+</div>
+
+</nav> 
+
+
+<!--  carousel section  -->
+
+<div class="carousel slide" id="mainCarousel" data-bs-rid="carousel">
+
+<div class="carousel-inner">
+
+<!-- first image -->
+<div class="carousel-item active">
+
+<img src="assets/Milk Way glaxy.jpg" alt="This is a first image" class="d-block w-100" >
+
+<div class="carousel-caption d-none d-md-block">
+
+<h5>Milky way galaxy image</h5>
+<p>The Milk Way is our cosmic home</p>
+
+</div>
+
+</div>
+
+<!-- sacand image -->
+<div class="carousel-item">
+
+<img src="assets/M87.jpg" alt="This is a sacand image" class="d-block w-100">
+
+<div class="carousel-caption d-none d-md-block">
+
+<h5>M87 galaxy image</h5>
+<p>The M87 Galaxy is a giant elliptical galaxy in the Virgo Cluster</p>
+
+</div>
+
+</div>
+
+<!-- third image-->
+<div class="carousel-item">
+
+<img src="assets/Triangulum galaxy.jpg" alt="This is a third image" class="d-block w-100">
+
+<div class="carousel-caption d-none d-md-block">
+
+<h5>Triangulum galaxy image</h5>
+<p>The Triangulum Galaxy is the third-largest member of the Local Group.</p>
+
+</div>
+
+</div>
+
+<!-- carousel control prev button -->
+<button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+</button>
+
+<!-- carousel control next button -->
+<button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+</button>
+
+</div>
+
+</div>
+
+
+<!-- our services section -->
+
+<div class="container my-5">
+
+<h2 class="text-center mb-4">Our Services</h2>
+
+<div class="row">
+
+<!-- first card -->
+<div class="col-sm-6 col-md-4">
+
+<img src="assets/Ic 1101.jpg" alt="This is 4 image" class="card-img-top rounded" style="height: 63%;">
+
+<div class="card-body">
+
+<h5 class="card-title">IC 1101</h5>
+<p class="card-text">IC 1101 is the largest known galaxy in the observable<br> universe,
+stretching more than 7millon light-years in diameter.</p>
+
+<a href="#" class="btn btn-outline-primary">Show more...</a>
+</div>
+
+
+</div>
+
+<!-- sacand card -->
+<div class="col-sm-6 col-md-4">
+
+<img src="assets/Andromeda Galaxy.jpg" alt="This is 5 image" class="card-img-top rounded" style="height: 63%;">
+
+<div class="card-body">
+
+<h5 class="card-title">Andromeda</h5>
+<p class="card-text">Andromeda is the closest large galaxy to the Milky Way, <br>
+     located roughly 2.5 million light-years away. it's a massive <br>
+      spiral galaxy.</p>
+
+<a href="#" class="btn btn-outline-info">Show more...</a>
+</div>
+
+
+</div>
+
+<!-- tjird card -->
+<div class="col-sm-6 col-md-4">
+
+<img src="assets/NGC 262.jpg" alt="This is 6 image" class="card-img-top rounded" style="height: 63%;">
+
+<div class="card-body">
+
+<h5 class="card-title">NGC 262</h5>
+<p class="card-text">NGC 262 is one of the largest known spiral galaxies, <br>
+     located around 190 million light-years from Earth.lts grand spiral arms.</p>
+
+<a href="#" class="btn btn-outline-success">Show more...</a>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<!--alert section  -->
+<div class="container my-4">
+<h2>Alert</h2>
+
+<div class="alert alert-success">Lorem ipsum dolor sit amet consectetur.</div>
+<div class="alert alert-danger">Lorem ipsum dolor sit amet consectetur.</div>
+<div class="alert alert-warning">Lorem ipsum dolor sit amet consectetur.</div>
+<div class="alert alert-info">Lorem ipsum dolor sit amet consectetur.</div>
+
+</div>
+
+<!-- contact section -->
+<div class="container my-5">
+
+<h2>Contact</h2>
+
+<!-- contact form -->
+<form>
+
+<!-- fullname div -->
+<div class="mb-4">
+
+<label class="form-label">Fullname:</label>
+<input type="text" class="form-control" placeholder="Enter your name">
+</div>
+
+<!-- email div -->
+<div class="mb-4">
+
+<label class="form-label">Email:</label>
+<input type="email" class="form-control" placeholder="Enter your email">
+</div>
+
+<!-- message div -->
+<div class="mb-4">
+
+    <label class="form-label">Message:</label>
+     <textarea class="form-control" placeholder="Enter your message" rows="4"></textarea>
+
+</div>
+
+<!-- button submit -->
+<button class="btn btn-primary" type="submit">Sent message</button>
+
+</form>
+
+</div>
+
+
+<!-- footer section -->
+ <footer class="bg-dark text-light text-center py-5">
+    <p>&copy; 2025 Abdelrahman Mostafa</p>
+    <p>Follow us on 
+        <a href="#" class="text-info text-decoration-none">Facebook</a>,
+        <a href="#" class="text-info text-decoration-none">Twitter</a>,
+        <a href="#" class="text-info text-decoration-none">instagram</a>.
+    </p>
+ </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
